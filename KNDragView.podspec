@@ -15,18 +15,18 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "WMDragView"
-  s.version      = "1.0.1"
-  s.summary      = "WMDragView is a free View for gesture drag"
+  s.name         = "KNWMDragView"
+  s.version      = "1.0.2"
+  s.summary      = "KNWMDragView is a free View for gesture drag"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = 'WMDragView致力于让任意View都可以自由悬浮拖曳（可拖动，悬浮按钮），类似于iOS的AssistiveTouch效果'
+  s.description  = 'KNWMDragView致力于让任意View都可以自由悬浮拖曳（可拖动，悬浮按钮），类似于iOS的AssistiveTouch效果'
 
-  s.homepage     = "https://github.com/zhengwenming/WMDragView"
+  s.homepage     = "https://github.com/zhangkn/DragView/"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -51,10 +51,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "zhengwenming" => "740747055@qq.com" }
-  # Or just: s.author    = "zhengwenming"
-  # s.authors            = { "zhengwenming" => "740747055@qq.com" }
-  # s.social_media_url   = "http://twitter.com/zhengwenming"
+  s.author             = { "kn" => "929118967@qq.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -78,8 +75,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/zhengwenming/WMDragView.git", :tag => "#{s.version}" }
-
+  s.source       = { :git => "https://github.com/zhangkn/DragView.git", :tag => "#{s.version}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04187B2522C1B36C001076CD /* KNDragView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 04187B2422C1B36C001076CD /* KNDragView.podspec */; };
 		18A83EC62140B8B600076C51 /* CustomerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A83EC52140B8B600076C51 /* CustomerView.m */; };
 		701137E81E05B43D00F74DDF /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701137E71E05B43D00F74DDF /* TestViewController.m */; };
 		701138071E05B4CA00F74DDF /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 701137EB1E05B4CA00F74DDF /* NSData+ImageContentType.m */; };
@@ -61,6 +62,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04187B2422C1B36C001076CD /* KNDragView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KNDragView.podspec; sourceTree = SOURCE_ROOT; };
 		18A83EC42140B8B600076C51 /* CustomerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomerView.h; sourceTree = "<group>"; };
 		18A83EC52140B8B600076C51 /* CustomerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomerView.m; sourceTree = "<group>"; };
 		701137E61E05B43D00F74DDF /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
@@ -380,6 +382,7 @@
 		70763C9220CBC11100DCB7BE /* WMDragView */ = {
 			isa = PBXGroup;
 			children = (
+				04187B2422C1B36C001076CD /* KNDragView.podspec */,
 				70763C9420CBC12900DCB7BE /* WMDragView.h */,
 				70763C9320CBC12900DCB7BE /* WMDragView.m */,
 			);
@@ -452,6 +455,7 @@
 				701C24681E07FF5500232AAB /* douyu.gif in Resources */,
 				701846D91F4861850063767A /* WMPlayer.bundle in Resources */,
 				70635F801E0445BE003EDFD5 /* Assets.xcassets in Resources */,
+				04187B2522C1B36C001076CD /* KNDragView.podspec in Resources */,
 				70635F7E1E0445BE003EDFD5 /* Main.storyboard in Resources */,
 				701C24661E07FCF400232AAB /* WMPlayer.gif in Resources */,
 				701C24641E07FCCB00232AAB /* WMDragView.gif in Resources */,
