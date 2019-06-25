@@ -66,12 +66,7 @@ pod trunk push  KNAXWebViewController.podspec --allow-warnings
 
 6、可以设置网络图片
 
-7、可以自定义view加到dragView中，比如一个视频，一个自定义按钮等等。
-
-
-
-欢迎加入iOS开发技术支持群，479259423，（付费群，手机端可以加，电脑加不了。慎入！）进群必须改名，群名片格式：城市-iOS-名字，例如广州-iOS-文明。
-
+7、可以自定义view加到dragView中，比如一个视频，一个自定义按钮等等
 # DragView
 ```
 - (WMDragView *)orangeView{
