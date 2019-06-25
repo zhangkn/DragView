@@ -417,7 +417,7 @@
 				TargetAttributes = {
 					70635F6F1E0445BE003EDFD5 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 7D992WX2BB;
+						DevelopmentTeam = 249PMS4KB9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -427,6 +427,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -623,7 +624,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7D992WX2BB;
+				DEVELOPMENT_TEAM = 249PMS4KB9;
 				GCC_PREFIX_HEADER = WMDragView/WMDragView.pch;
 				INFOPLIST_FILE = WMDragView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -637,7 +638,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 7D992WX2BB;
+				DEVELOPMENT_TEAM = 249PMS4KB9;
 				GCC_PREFIX_HEADER = WMDragView/WMDragView.pch;
 				INFOPLIST_FILE = WMDragView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
