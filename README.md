@@ -37,26 +37,6 @@ pod trunk push  KNAXWebViewController.podspec --allow-warnings
 - [x] 支持自定义view
 
 
-# 使用APP列表
-1、“爱心云健康”的发现-爱帮圈页面
-
-2、“泽传媒”的自定义页面
-
-3、“联享家”的我的-签到页面
-
-4、“盎盎理财-人人都在用的理财神器”的首页
-
-
-demo效果图：
----
-微信扫码关注文明的iOS开发公众号
-或者微信搜索“iOS开发by文明”
-
-![image](https://github.com/zhengwenming/WMPlayer/blob/master/PlayerDemo/gzh.jpg)
-
----
-![image](https://github.com/zhengwenming/WMDragView/blob/master/WMDragView/WMDragView.gif)  应用场景1：![image](https://github.com/zhengwenming/WMDragView/blob/master/WMDragView/WMPlayer.gif) 应用场景2：![image](https://github.com/zhengwenming/WMDragView/blob/master/WMDragView/douyu.gif) 
-
 
 
 #WMDragView：用法和API
@@ -93,3 +73,51 @@ demo效果图：
 欢迎加入iOS开发技术支持群，479259423，（付费群，手机端可以加，电脑加不了。慎入！）进群必须改名，群名片格式：城市-iOS-名字，例如广州-iOS-文明。
 
 # DragView
+```
+- (WMDragView *)orangeView{
+if (nil == _orangeView) {
+WMDragView *tmpView = [[WMDragView alloc] initWithFrame:CGRectMake(0, 0 , kAdjustRatio(60), kAdjustRatio(60))];
+
+_orangeView = tmpView;
+[self addSubview:_orangeView];
+__weak __typeof__(self) weakSelf = self;
+
+
+//        tmpView.button.titleLabel.font = [UIFont systemFontOfSize:15.0];
+//        [tmpView.button setTitle:@"可拖曳" forState:UIControlStateNormal];
+tmpView.backgroundColor = [UIColor clearColor];
+//
+//        tmpView.layer.cornerRadius = 14;// layoutsubview
+
+//设置显示图片方式一：
+tmpView.imageView.image = [UIImage imageNamed:@"icon_dayin"];
+//设置显示图片方式二：
+//    [logoView.button setBackgroundImage:[UIImage imageNamed:@"logo1024"] forState:UIControlStateNormal];
+
+
+
+[_orangeView mas_makeConstraints:^(MASConstraintMaker *make) {
+make.size.mas_equalTo(CGSizeMake(kAdjustRatio(60), kAdjustRatio(60)));
+
+make.right.equalTo(weakSelf).offset(kAdjustRatio(-20));
+
+make.bottom.equalTo(weakSelf).offset(kAdjustRatio(-90));
+
+}];
+
+tmpView.clickDragViewBlock = ^(WMDragView *dragView){
+
+NSLog(@"处理记录打印");
+//            [self.navigationController pushViewController:[TestViewController new] animated:YES];
+};
+
+
+
+
+
+}
+return _orangeView;
+}
+
+
+```
