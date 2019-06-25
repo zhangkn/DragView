@@ -1,3 +1,31 @@
+# KNDragView
+```
+
+pod  KNDragView
+
+🚀  KNDragView (1.0.3) successfully published
+📅  June 24th, 19:57
+🌎  https://cocoapods.org/pods/KNDragView
+👍  Tell your friends!
+
+```
+
+####  pod trunk push
+
+```
+➜  AXWebViewController git:(master) ✗ kngit 0.7.4
+➜  AXWebViewController git:(master) git tag -a 0.7.4 -m "0.7.4"                                           
+➜  AXWebViewController git:(master) git push origin --tags                                                
+➜  AXWebViewController git:(master) ✗ pod lib lint KNAXWebViewController.podspec --allow-warnings --no-clean
+
+pod trunk push  KNAXWebViewController.podspec --allow-warnings
+
+
+```
+
+
+
+
 # WMDragView
 拖吗？拖！拖就用WMDragView吧。WMDragView致力于让任意View都可以自由移动、悬浮、拖动、拖曳。WMDragView是可以自由拖曳的view，可以悬浮移动，也可以设置内部的图片，轻量级的控件。
 
